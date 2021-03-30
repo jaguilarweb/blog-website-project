@@ -6,21 +6,22 @@
 /*------------------------
     Header
   -------------------------*/
-header{
+
+header {
     width: 100%;
     height: 120px;
     display: grid;
     grid-template-rows: 1fr 1fr;
 }
 
-header .header-icons-container{
+header .header-icons-container {
     width: 100%;
     height: 40px;
     display: grid;
     background-color: #ac35a2;
 }
 
-header .header-icons-container .icons{
+header .header-icons-container .icons {
     width: 90%;
     height: auto;
     display: flex;
@@ -31,32 +32,32 @@ header .header-icons-container .icons{
     margin-right: 50px;
 }
 
-header .icons span{
+header .icons span {
     color: white;
 }
 
-nav{
+nav {
   display: flex;
   justify-content: space-between;
   height: 100px;
 }
 
-nav .logo-container{
+nav .logo-container {
   margin-left: 50px;
 }
 
-nav .logo-container img{
+nav .logo-container img {
   width: 80px;
 }
 
-nav .profile-link{
+nav .profile-link {
   display: flex;
   align-items: center;
   justify-content: flex-end;
   margin-right: 50px;
 }
 
-nav .profile-link a{
+nav .profile-link a {
   color: black;
   border-bottom: 1px solid black;
 }
@@ -65,18 +66,18 @@ nav .profile-link a{
     Body
   -------------------------*/
 
-body{
+body {
   font-family: 'Courgette', cursive;
   font-size: 18px;
   margin: 0;
   padding: 0;
 }
 
-.info-name{
-  color:#ac35a2;
+.info-name {
+  color: #ac35a2;
 }
 
-.home-body{
+.home-body {
   position: fixed;
   top: 0;
   bottom: 0;
@@ -84,7 +85,7 @@ body{
   right: 0;
 }
 
-.home-main{
+.home-main {
   display: grid;
   grid-template-columns: 100%;
   height: 75%;
@@ -95,7 +96,7 @@ body{
   justify-items: center;
 }
 
-.button-card-front{
+.button-card-front {
   width: 110px;
   height: 50px;
   background: #ac35a2;
@@ -103,7 +104,7 @@ body{
   border-radius: 15px;
 }
 
-.button-card-back{
+.button-card-back {
   width: 110px;
   height: 50px;
   background: #fff;
@@ -111,24 +112,34 @@ body{
   border-radius: 15px;
 }
 
-.button-card-front a{
+.button-card-front a {
   color: white;
   font-size: 18px;
 }
 
-.button-card-back a{
+.button-card-back a {
   color: #ac35a2;
   font-size: 18px;
 }
 
-img{
+
+figcaption {
+  background-color: black;
+  color: white;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+
+img {
   height: inherit;
   border-radius: 30px 30px 0 0;
 }
 
+
 /* The flip card container - set the width and height to whatever you want. 
 We have added the border property to demonstrate that the flip itself goes out of the box on hover 
-(remove perspective if you don't want the 3D effect */
+(remove perspective if you don't want the 3D effect) Credits https://www.w3schools.com */
 .flip-card {
   background-color: transparent;
   width: 300px;
@@ -167,7 +178,8 @@ We have added the border property to demonstrate that the flip itself goes out o
   color: black;
   border-radius: 30px 30px 0 0;
 }
-.card-front-container{
+
+.card-front-container {
   padding: 10px;
   background-color: #fff;
   border-radius: 0 0 30px 30px;
@@ -185,14 +197,15 @@ We have added the border property to demonstrate that the flip itself goes out o
     Footer
   -------------------------*/
 
-footer{
+footer {
   width: 100%;
   height: 70px;
   background-color: #22272d;
   border-top: 15px solid #ac35a2;
   text-align: center;
 }
-footer p{
+
+footer p {
   margin-top: 10px;
   font-size: 14px;
   color: white;
