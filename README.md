@@ -12,7 +12,7 @@ https://jaguilarweb.com
 
 This website can be access by mobile devices:
 
-![](https://https://github.com/jaguilarweb/blog-website-project/images/mobile.jpg)
+![](https://github.com/jaguilarweb/blog-website-project/blob/master/images/mobile.png)
 
 > Project in mobile devices.
 
