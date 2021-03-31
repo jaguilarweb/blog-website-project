@@ -1,5 +1,5 @@
 
-@media (min-width: 361px) and (max-width: 900px) {
+@media (min-width: 421px) and (max-width: 900px) {
   .grid-container {
     display: flex;
     flex-direction: row;
@@ -20,7 +20,56 @@
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width:420px) {
+  header .header-icons-container .icons {
+    width: 80%;
+ }
+
+  .home-main {
+    grid-template-columns: 100%;
+    height: 65%;
+  }
+
+  .card-front-container {
+    height: 70%;
+  }
+
+  .card-front-container h4 {
+    margin: 0;
+  }
+
+  .card-front-container p {
+    margin: 5px;
+    font-size: 14px;
+  }
+
+  .flip-card {
+    width: 200px;
+    height: 180px;
+  }
+
+  .button-card-front {
+    width: 90px;
+    height: 40px;
+    background: #ac35a2;
+    align-items: center;
+    border-radius: 15px;
+  }
+
+  .button-card-back {
+    width: 90px;
+    height: 40px;
+    margin-bottom: 20px;
+  }
+
+  .button-card-front a {
+    font-size: 14px;
+  }
+
+  .button-card-back a {
+    font-size: 14px;
+  }
+
   .blog-main-new{
     display: flex;
     flex-direction: column;
