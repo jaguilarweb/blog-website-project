@@ -1,5 +1,5 @@
 
-@media (min-width: 320px) and (max-width: 900px) {
+@media (min-width: 361px) and (max-width: 900px) {
   .grid-container {
     display: flex;
     flex-direction: row;
@@ -20,7 +20,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 360px) {
   .blog-main-new{
     display: flex;
     flex-direction: column;
