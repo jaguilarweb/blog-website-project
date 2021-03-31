@@ -10,6 +10,11 @@ This website has been hosting and it is currently working at this link:
 
 https://jaguilarweb.com
 
+This website can be access by mobile devices:
+
+![](https://https://github.com/jaguilarweb/blog-website-project/images/mobile.jpg)
+
+> Project in mobile devices.
 
 ## About
 
@@ -17,7 +22,7 @@ This is a personal blog test project subject to review.
 
 ## Credits and Disclaimer
 
-- Images: Background and the examples posts images are using purchased DepositPhotos images. The Jenny images used are personal and It is not allowed to be used by third parts. The avatar was download in the website https://www.creartuavatar.com/index.php (Free version).
+- Images: Background and the examples posts images are using purchased DepositPhotos images. The avatar was download in the website https://www.creartuavatar.com/index.php (Free version).
 
 - Code reference: The W3School site (https://www.w3schools.com/) and personal projects developed in the Curso Práctico de Maquetación en CSS powered by Platzi were consulted during project development.
 
